@@ -3,7 +3,7 @@
 import math
 
 def gcd(a, b):
-    """Calcula el Máximo Común Divisor (MCD) de dos números usando el algoritmo de Euclides."""
+    """Calculaa el Máximo Común Divisor (MCD) de dos números usando el algoritmo de Euclides."""
     while b:
         a, b = b, a % b
     return a
